@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Src\Common.csproj", "{A09297C8-2C40-470B-8856-D856676DDFFA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{CB27913A-D1A4-41FB-AB8D-34414066D0A3}"
@@ -8,6 +10,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.TestSupport", "Tests\Common.TestSupport\Common.TestSupport.csproj", "{C6DE0220-E31B-486B-AB57-107636AEB927}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Tests.VSTS", "Tests\Common\Common.Tests.VSTS.csproj", "{02FC8CE2-2CB3-41B6-8516-0A27B99708A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EB8D94F2-230A-4BAF-B1E4-CC90BC88C06D}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitattributes = ..\.gitattributes
+		..\.gitignore = ..\.gitignore
+		..\LICENSE.txt = ..\LICENSE.txt
+		..\Readme.md = ..\Readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,5 +44,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C6DE0220-E31B-486B-AB57-107636AEB927} = {CB27913A-D1A4-41FB-AB8D-34414066D0A3}
 		{02FC8CE2-2CB3-41B6-8516-0A27B99708A9} = {CB27913A-D1A4-41FB-AB8D-34414066D0A3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29B8267A-43F5-4A9B-901C-395A2DABD938}
 	EndGlobalSection
 EndGlobal
